@@ -1,0 +1,19 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*token*
+*.pem
+*.key
+# Python / notebook
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+# Generated files
+reports/
+outputs/
+*.log
+.DS_Store
